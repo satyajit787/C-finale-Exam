@@ -1,0 +1,127 @@
+body{
+   padding: 0;
+   margin: 0;
+   overflow: hidden;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background-color:#525f50;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.logo{
+    width: 20%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    float: left;
+}
+.emapy{
+    width: 60%;
+    height: 70px;
+   
+    float: left;
+}
+.link {
+    width: 20%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    float: left;
+}
+.link>a {
+    list-style: none;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: gelogica;
+    font-size: 20px;
+}
+.logo>p {
+  
+    color: aliceblue;
+    font-size: 29px;
+
+    font-family: gelogica;
+}
+@font-face {
+    font-family: gelogica;
+    src: url(../fonts/geologica/Geologica-Regular.woff);
+}
+@font-face {
+    font-family: hot-dog;
+    src: url(../fonts/hot-dog/HotDog.woff);
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #2ab814;
+}
+.box1{
+    width: 65%;
+    height: 100vh;
+    float: left;
+    background-color: #b7c5ab;
+}
+.box-manegar {
+    width: 73%;
+    float: left;
+    height: 100vh;
+   
+    margin-left: 120px;
+}
+.box-manegar>button {
+    width: 170px;
+    height: 60px;
+    background-color: #525f50;
+    color: aliceblue;
+    font-size: 18px;
+    font-family: gelogica;
+    border: 0;
+    margin-top: 10px;
+}
+.box-manegar>img{
+    
+    margin-top: 12%;
+    margin-bottom: 15px;
+    width: 70%;
+
+}
+.box-manegar>p {
+    font-size: 22px;
+    font-family: gelogica;
+    line-height: 37px;
+}
+.box2{
+    width: 35%;
+    height: 100vh;
+    float: left;
+    background-color: #525f50;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+.box2>img {
+    width: 80%;
+    margin-left: 130px;
+    margin-top: -63px;
+}
+main>img {
+    float: left;
+    position: absolute;
+    width: 15%;
+    top: 30%;
+    right: 28%;
+    transition: all 0.7s ease-in-out;
+}
+main>img:hover {
+    width: 18%;
+    right: 26%;
+    top: 28%;
+}
